@@ -4,17 +4,20 @@ import java.sql.Date
 
 class cowDTO {
     var id: Long? = null
-    var name: String? = null
-    var ear_tag: String? = null
+    var cowName: String? = null
+    var earTag: String? = null
     var age: Long? = null
     var color: String? = null
     var breed: String? = null
-    var date_of_birth: Date? = null
-    var weight: Long? = null
-    var date_added: Date? = null
+    var dateOfBirth: Date? = null
+    var currentWeight: Long? = null
+    var dateAdded: Date? = null
     var status: Long? = null
     var comments: String? = null
-    var file_uploaded_id: Long? = null
-    var action_by: Long? = null
+    var tableName: String? = null
+    var fileUploadedId: Long? = null
+    var actionBy: Long? = null
+    var userName: String? = null
+
 
 }
